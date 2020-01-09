@@ -3,4 +3,5 @@ RUN set -xe; \
         apt-get update >/dev/null; \
         apt-get -y --no-install-recommends install >/dev/null \
 		psutils \
+		poppler-utils \
 	;\
